@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ElroubyMauiLibrary.Special.Evaluation">
+    <HorizontalStackLayout x:Name="StarContainer" Padding="5" BackgroundColor="Transparent">
+        <ImageButton BackgroundColor="Transparent" x:Name="One" Source="Photos/emptystar.png" Clicked="One_Clicked"/>
+        <ImageButton BackgroundColor="Transparent" x:Name="Two" Source="Photos/emptystar.png" Clicked="Two_Clicked"/>
+        <ImageButton BackgroundColor="Transparent" x:Name="Three" Source="Photos/emptystar.png" Clicked="Three_Clicked"/>
+        <ImageButton BackgroundColor="Transparent" x:Name="Four" Source="Photos/emptystar.png" Clicked="Four_Clicked"/>
+        <ImageButton BackgroundColor="Transparent" x:Name="Five" Source="Photos/emptystar.png" Clicked="Five_Clicked"/>
+    </HorizontalStackLayout>
+</ContentView>

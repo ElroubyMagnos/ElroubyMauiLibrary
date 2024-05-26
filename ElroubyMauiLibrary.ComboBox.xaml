@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Parts="clr-namespace:ElroubyMauiLibrary.Parts"
+             x:Class="ElroubyMauiLibrary.ComboBox">
+    <ScrollView>
+        <VerticalStackLayout HorizontalOptions="Start">
+            
+            <HorizontalStackLayout>
+                <Button x:Name="Down" Clicked="Down_Clicked" Text="↓"/>
+                <Parts:ComboEntry IsReadOnly="True" x:Name="Space" Text=""/>
+            </HorizontalStackLayout>
+
+            <VerticalStackLayout x:FieldModifier="public" x:Name="Items" ChildAdded="Items_ChildAdded">
+
+            </VerticalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentView>

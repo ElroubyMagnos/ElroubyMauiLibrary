@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>ElroubyMauiLibrary</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netcoreapp7.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="ElroubyMauiLibrary.elrouby.md" />
+    <None Remove="ElroubyMauiLibrary.Photos.add.webp" />
+    <None Remove="ElroubyMauiLibrary.Photos.delete.webp" />
+    <None Remove="ElroubyMauiLibrary.Photos.emptypic.jpg" />
+    <None Remove="ElroubyMauiLibrary.Photos.emptystar.png" />
+    <None Remove="ElroubyMauiLibrary.Photos.eye.png" />
+    <None Remove="ElroubyMauiLibrary.Photos.file.png" />
+    <None Remove="ElroubyMauiLibrary.Photos.folder.png" />
+    <None Remove="ElroubyMauiLibrary.Photos.star.png" />
+    <None Remove="ElroubyMauiLibrary.Photos.reload.png" />
+    <None Remove="ElroubyMauiLibrary.Photos.save.png" />
+    <None Remove="ElroubyMauiLibrary.Roubys.png" />
+    <None Remove="ElroubyMauiLibrary.ComboBox.xaml" />
+    <None Remove="ElroubyMauiLibrary.GridBase.GridImage.xaml" />
+    <None Remove="ElroubyMauiLibrary.Special.CircleImage.xaml" />
+    <None Remove="ElroubyMauiLibrary.Special.DataGridView.xaml" />
+    <None Remove="ElroubyMauiLibrary.Special.Evaluation.xaml" />
+    <EmbeddedResource Include="ElroubyMauiLibrary.elrouby.md" LogicalName="ElroubyMauiLibrary.elrouby.md" />
+    <EmbeddedResource Include="ElroubyMauiLibrary.Photos.add.webp" LogicalName="ElroubyMauiLibrary.Photos.add.webp" />
+    <EmbeddedResource Include="ElroubyMauiLibrary.Photos.delete.webp" LogicalName="ElroubyMauiLibrary.Photos.delete.webp" />
+    <EmbeddedResource Include="ElroubyMauiLibrary.Photos.emptypic.jpg" LogicalName="ElroubyMauiLibrary.Photos.emptypic.jpg" />
+    <EmbeddedResource Include="ElroubyMauiLibrary.Photos.emptystar.png" LogicalName="ElroubyMauiLibrary.Photos.emptystar.png" />
+    <EmbeddedResource Include="ElroubyMauiLibrary.Photos.eye.png" LogicalName="ElroubyMauiLibrary.Photos.eye.png" />
+    <EmbeddedResource Include="ElroubyMauiLibrary.Photos.file.png" LogicalName="ElroubyMauiLibrary.Photos.file.png" />
+    <EmbeddedResource Include="ElroubyMauiLibrary.Photos.folder.png" LogicalName="ElroubyMauiLibrary.Photos.folder.png" />
+    <EmbeddedResource Include="ElroubyMauiLibrary.Photos.star.png" LogicalName="ElroubyMauiLibrary.Photos.star.png" />
+    <EmbeddedResource Include="ElroubyMauiLibrary.Photos.reload.png" LogicalName="ElroubyMauiLibrary.Photos.reload.png" />
+    <EmbeddedResource Include="ElroubyMauiLibrary.Photos.save.png" LogicalName="ElroubyMauiLibrary.Photos.save.png" />
+    <EmbeddedResource Include="ElroubyMauiLibrary.Roubys.png" LogicalName="ElroubyMauiLibrary.Roubys.png" />
+    <EmbeddedResource Include="ElroubyMauiLibrary.ComboBox.xaml" LogicalName="ElroubyMauiLibrary.ComboBox.xaml" />
+    <EmbeddedResource Include="ElroubyMauiLibrary.GridBase.GridImage.xaml" LogicalName="ElroubyMauiLibrary.GridBase.GridImage.xaml" />
+    <EmbeddedResource Include="ElroubyMauiLibrary.Special.CircleImage.xaml" LogicalName="ElroubyMauiLibrary.Special.CircleImage.xaml" />
+    <EmbeddedResource Include="ElroubyMauiLibrary.Special.DataGridView.xaml" LogicalName="ElroubyMauiLibrary.Special.DataGridView.xaml" />
+    <EmbeddedResource Include="ElroubyMauiLibrary.Special.Evaluation.xaml" LogicalName="ElroubyMauiLibrary.Special.Evaluation.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Maui.Controls" />
+    <Reference Include="Microsoft.Maui.Controls.Xaml" />
+    <Reference Include="Microsoft.Maui" />
+    <Reference Include="Microsoft.Maui.Graphics" />
+    <Reference Include="Microsoft.Maui.Essentials" />
+    <Reference Include="FastMember" />
+  </ItemGroup>
+</Project>
